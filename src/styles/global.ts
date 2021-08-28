@@ -72,4 +72,17 @@ export const GlobalStyle = createGlobalStyle`
 
   }
 
+  .react-modal-close{
+    position: absolute;
+    right: 2rem;
+    top: 2rem;
+    border: 0;
+    background: transparent;
+    transition: filter 0.2s;
+
+    &:hover{
+      filter: brightness(0.8);
+    }
+  }
+
 `;
